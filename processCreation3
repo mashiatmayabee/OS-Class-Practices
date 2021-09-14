@@ -1,0 +1,7 @@
+#include<unistd.h>
+#include<stdio.h>
+int main(){
+	fork();
+	printf("i am the parent\n");
+return 0;
+}
